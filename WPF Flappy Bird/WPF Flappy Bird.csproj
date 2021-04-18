@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WPF_Flappy_Bird</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\clouds.png" />
+    <None Remove="images\clouds2.png" />
+    <None Remove="images\flappyBird.png" />
+    <None Remove="images\pipeBottom.png" />
+    <None Remove="images\pipeTop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\clouds2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\clouds.png" />
+    <Resource Include="images\flappyBird.png" />
+    <Resource Include="images\pipeBottom.png" />
+    <Resource Include="images\pipeTop.png" />
+  </ItemGroup>
+
+</Project>
